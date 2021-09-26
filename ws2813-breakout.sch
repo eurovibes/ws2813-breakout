@@ -1,0 +1,988 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2813 D101
+U 1 1 630B0076
+P 3500 3900
+F 0 "D101" H 3550 4150 50  0000 L CNN
+F 1 "WS2813" H 3550 3650 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3550 3600 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 3600 3525 50  0001 L TNN
+F 4 "RGB SMD,5x5mm Light Emitting Diodes (LED) ROHS" H 3500 3900 50  0001 C CNN "Description"
+F 5 "C114592" H 3500 3900 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 3500 3900 50  0001 C CNN "Distributor"
+F 7 "C114592" H 3500 3900 50  0001 C CNN "LCSC"
+F 8 "WS2813B-B" H 3500 3900 50  0001 C CNN "ManuPart#"
+F 9 "Worldsemi" H 3500 3900 50  0001 C CNN "Manufacture"
+F 10 "y" H 3500 3900 50  0001 C CNN "assemble"
+	1    3500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3900 7600 3900
+Wire Wire Line
+	5300 3900 6100 3900
+Wire Wire Line
+	3800 3900 4600 3900
+Wire Wire Line
+	8400 3900 8300 3900
+$Comp
+L LED:WS2813 D102
+U 1 1 630B6462
+P 5000 3900
+F 0 "D102" H 5050 4150 50  0000 L CNN
+F 1 "WS2813" H 5050 3650 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5050 3600 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5100 3525 50  0001 L TNN
+F 4 "RGB SMD,5x5mm Light Emitting Diodes (LED) ROHS" H 5000 3900 50  0001 C CNN "Description"
+F 5 "C114592" H 5000 3900 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 5000 3900 50  0001 C CNN "Distributor"
+F 7 "C114592" H 5000 3900 50  0001 C CNN "LCSC"
+F 8 "WS2813B-B" H 5000 3900 50  0001 C CNN "ManuPart#"
+F 9 "Worldsemi" H 5000 3900 50  0001 C CNN "Manufacture"
+F 10 "y" H 5000 3900 50  0001 C CNN "assemble"
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D103
+U 1 1 630B6C74
+P 6500 3900
+F 0 "D103" H 6550 4150 50  0000 L CNN
+F 1 "WS2813" H 6550 3650 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6550 3600 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 6600 3525 50  0001 L TNN
+F 4 "RGB SMD,5x5mm Light Emitting Diodes (LED) ROHS" H 6500 3900 50  0001 C CNN "Description"
+F 5 "C114592" H 6500 3900 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 6500 3900 50  0001 C CNN "Distributor"
+F 7 "C114592" H 6500 3900 50  0001 C CNN "LCSC"
+F 8 "WS2813B-B" H 6500 3900 50  0001 C CNN "ManuPart#"
+F 9 "Worldsemi" H 6500 3900 50  0001 C CNN "Manufacture"
+F 10 "y" H 6500 3900 50  0001 C CNN "assemble"
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D104
+U 1 1 630B74D9
+P 8000 3900
+F 0 "D104" H 8050 4150 50  0000 L CNN
+F 1 "WS2813" H 8050 3650 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8050 3600 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 8100 3525 50  0001 L TNN
+F 4 "RGB SMD,5x5mm Light Emitting Diodes (LED) ROHS" H 8000 3900 50  0001 C CNN "Description"
+F 5 "C114592" H 8000 3900 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 8000 3900 50  0001 C CNN "Distributor"
+F 7 "C114592" H 8000 3900 50  0001 C CNN "LCSC"
+F 8 "WS2813B-B" H 8000 3900 50  0001 C CNN "ManuPart#"
+F 9 "Worldsemi" H 8000 3900 50  0001 C CNN "Manufacture"
+F 10 "y" H 8000 3900 50  0001 C CNN "assemble"
+	1    8000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP105
+U 1 1 630B7F74
+P 3950 3500
+F 0 "JP105" H 3950 3705 50  0000 C CNN
+F 1 "B-B" H 3950 3614 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3950 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+F 4 "n" H 3950 3500 50  0001 C CNN "assemble"
+	1    3950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3500 3700 3500
+Wire Wire Line
+	3500 3500 3500 3600
+Wire Wire Line
+	4700 4000 4200 4000
+Wire Wire Line
+	4200 4000 4200 3500
+Wire Wire Line
+	4200 3500 4100 3500
+Wire Wire Line
+	3400 3500 3400 3600
+$Comp
+L power:+5V #PWR?
+U 1 1 630B9C00
+P 3400 3500
+F 0 "#PWR?" H 3400 3350 50  0001 C CNN
+F 1 "+5V" H 3415 3673 50  0000 C CNN
+F 2 "" H 3400 3500 50  0001 C CNN
+F 3 "" H 3400 3500 50  0001 C CNN
+	1    3400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 630BA33E
+P 4900 3500
+F 0 "#PWR?" H 4900 3350 50  0001 C CNN
+F 1 "+5V" H 4915 3673 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 630BA64B
+P 6400 3500
+F 0 "#PWR?" H 6400 3350 50  0001 C CNN
+F 1 "+5V" H 6415 3673 50  0000 C CNN
+F 2 "" H 6400 3500 50  0001 C CNN
+F 3 "" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 630BA977
+P 7900 3500
+F 0 "#PWR?" H 7900 3350 50  0001 C CNN
+F 1 "+5V" H 7915 3673 50  0000 C CNN
+F 2 "" H 7900 3500 50  0001 C CNN
+F 3 "" H 7900 3500 50  0001 C CNN
+	1    7900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3500 7900 3600
+Wire Wire Line
+	6400 3500 6400 3600
+Wire Wire Line
+	4900 3500 4900 3600
+$Comp
+L Jumper:SolderJumper_2_Open JP106
+U 1 1 630BB3BF
+P 5450 3500
+F 0 "JP106" H 5450 3705 50  0000 C CNN
+F 1 "B-B" H 5450 3614 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5450 3500 50  0001 C CNN
+F 3 "~" H 5450 3500 50  0001 C CNN
+F 4 "n" H 5450 3500 50  0001 C CNN "assemble"
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP107
+U 1 1 630BBA0B
+P 6950 3500
+F 0 "JP107" H 6950 3705 50  0000 C CNN
+F 1 "B-B" H 6950 3614 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6950 3500 50  0001 C CNN
+F 3 "~" H 6950 3500 50  0001 C CNN
+F 4 "n" H 6950 3500 50  0001 C CNN "assemble"
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3500 5200 3500
+Wire Wire Line
+	5000 3500 5000 3600
+Wire Wire Line
+	6800 3500 6700 3500
+Wire Wire Line
+	6500 3500 6500 3600
+Wire Wire Line
+	6200 4000 5700 4000
+Wire Wire Line
+	5700 4000 5700 3500
+Wire Wire Line
+	5700 3500 5600 3500
+Wire Wire Line
+	7700 4000 7200 4000
+Wire Wire Line
+	7200 4000 7200 3500
+Wire Wire Line
+	7200 3500 7100 3500
+$Comp
+L power:GND #PWR?
+U 1 1 630BD95C
+P 3500 4300
+F 0 "#PWR?" H 3500 4050 50  0001 C CNN
+F 1 "GND" H 3505 4127 50  0000 C CNN
+F 2 "" H 3500 4300 50  0001 C CNN
+F 3 "" H 3500 4300 50  0001 C CNN
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630BDFC2
+P 5000 4300
+F 0 "#PWR?" H 5000 4050 50  0001 C CNN
+F 1 "GND" H 5005 4127 50  0000 C CNN
+F 2 "" H 5000 4300 50  0001 C CNN
+F 3 "" H 5000 4300 50  0001 C CNN
+	1    5000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630BE4CE
+P 6500 4300
+F 0 "#PWR?" H 6500 4050 50  0001 C CNN
+F 1 "GND" H 6505 4127 50  0000 C CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630BE88C
+P 8000 4300
+F 0 "#PWR?" H 8000 4050 50  0001 C CNN
+F 1 "GND" H 8005 4127 50  0000 C CNN
+F 2 "" H 8000 4300 50  0001 C CNN
+F 3 "" H 8000 4300 50  0001 C CNN
+	1    8000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4200 8000 4300
+Wire Wire Line
+	6500 4200 6500 4300
+Wire Wire Line
+	5000 4200 5000 4300
+Wire Wire Line
+	3500 4200 3500 4300
+Wire Wire Line
+	3000 3900 3200 3900
+$Comp
+L Connector_Generic:Conn_01x06 J101
+U 1 1 630C0624
+P 1700 3900
+F 0 "J101" H 1618 4317 50  0000 C CNN
+F 1 "Breakout" H 1618 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1700 3900 50  0001 C CNN
+F 3 "~" H 1700 3900 50  0001 C CNN
+F 4 "n" H 1700 3900 50  0001 C CNN "assemble"
+	1    1700 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 630C12BF
+P 2000 3600
+F 0 "#PWR?" H 2000 3450 50  0001 C CNN
+F 1 "+5V" H 2015 3773 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630C16EF
+P 2000 4300
+F 0 "#PWR?" H 2000 4050 50  0001 C CNN
+F 1 "GND" H 2005 4127 50  0000 C CNN
+F 2 "" H 2000 4300 50  0001 C CNN
+F 3 "" H 2000 4300 50  0001 C CNN
+	1    2000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3700 2000 3700
+Wire Wire Line
+	2000 3700 2000 3600
+Wire Wire Line
+	1900 4200 2000 4200
+Wire Wire Line
+	2000 4200 2000 4300
+Wire Wire Line
+	2000 3800 1900 3800
+Wire Wire Line
+	2000 3900 1900 3900
+Wire Wire Line
+	2000 4000 1900 4000
+Wire Wire Line
+	2000 4100 1900 4100
+Text Label 2000 3800 0    50   ~ 0
+DI
+Text Label 2000 3900 0    50   ~ 0
+DO
+Text Label 2000 4000 0    50   ~ 0
+BI
+Text Label 2000 4100 0    50   ~ 0
+BO
+Wire Wire Line
+	3000 4000 3100 4000
+Text Label 3000 3900 2    50   ~ 0
+DI
+Text Label 3000 4000 2    50   ~ 0
+BI
+Text Label 9050 3500 0    50   ~ 0
+BO
+Text Label 8400 3900 0    50   ~ 0
+DO
+$Comp
+L Jumper:SolderJumper_2_Open JP108
+U 1 1 630C585D
+P 8650 3500
+F 0 "JP108" H 8650 3705 50  0000 C CNN
+F 1 "B-B" H 8650 3614 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8650 3500 50  0001 C CNN
+F 3 "~" H 8650 3500 50  0001 C CNN
+F 4 "n" H 8650 3500 50  0001 C CNN "assemble"
+	1    8650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3500 8900 3500
+Wire Wire Line
+	8500 3500 8200 3500
+Wire Wire Line
+	8000 3500 8000 3600
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 630C74D2
+P 2100 3700
+F 0 "#FLG?" H 2100 3775 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 3828 50  0000 L CNN
+F 2 "" H 2100 3700 50  0001 C CNN
+F 3 "~" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	0    1    1    0   
+$EndComp
+Connection ~ 2000 3700
+Wire Wire Line
+	2100 3700 2000 3700
+Wire Wire Line
+	2100 4200 2000 4200
+Connection ~ 2000 4200
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 630C9085
+P 2100 4200
+F 0 "#FLG?" H 2100 4275 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 4328 50  0000 L CNN
+F 2 "" H 2100 4200 50  0001 C CNN
+F 3 "~" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP101
+U 1 1 630E2052
+P 3500 3050
+F 0 "JP101" V 3454 3118 50  0000 L CNN
+F 1 "RC" V 3545 3118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3500 3050 50  0001 C CNN
+F 3 "~" H 3500 3050 50  0001 C CNN
+F 4 "n" H 3500 3050 50  0001 C CNN "assemble"
+	1    3500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3500 3500 3200
+Connection ~ 3500 3500
+$Comp
+L Device:R R101
+U 1 1 630E4F8F
+P 3500 2550
+F 0 "R101" H 3570 2596 50  0000 L CNN
+F 1 "150" H 3570 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+F 4 "±1% 1/16W ±100ppm/℃ 150Ω 0402 Chip Resistor - Surface Mount ROHS" H 3500 2550 50  0001 C CNN "Description"
+F 5 "C25082" H 3500 2550 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 3500 2550 50  0001 C CNN "Distributor"
+F 7 "C25082" H 3500 2550 50  0001 C CNN "LCSC"
+F 8 "0402WGF1500TCE" H 3500 2550 50  0001 C CNN "ManuPart#"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 3500 2550 50  0001 C CNN "Manufacture"
+F 10 "y" H 3500 2550 50  0001 C CNN "assemble"
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 630E595B
+P 3850 2800
+F 0 "C101" V 3598 2800 50  0000 C CNN
+F 1 "100n" V 3689 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3888 2650 50  0001 C CNN
+F 3 "~" H 3850 2800 50  0001 C CNN
+F 4 "X7R 100nF ±10% 16V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 3850 2800 50  0001 C CNN "Description"
+F 5 "C1525" H 3850 2800 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 3850 2800 50  0001 C CNN "Distributor"
+F 7 "C1525" H 3850 2800 50  0001 C CNN "LCSC"
+F 8 "CL05B104KO5NNNC" H 3850 2800 50  0001 C CNN "ManuPart#"
+F 9 "Samsung Electro-Mechanics" H 3850 2800 50  0001 C CNN "Manufacture"
+F 10 "y" H 3850 2800 50  0001 C CNN "assemble"
+	1    3850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630E5EB1
+P 4100 2900
+F 0 "#PWR?" H 4100 2650 50  0001 C CNN
+F 1 "GND" H 4105 2727 50  0000 C CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2800 4100 2800
+Wire Wire Line
+	4100 2800 4100 2900
+Wire Wire Line
+	3500 2700 3500 2800
+Wire Wire Line
+	3700 2800 3500 2800
+Connection ~ 3500 2800
+Wire Wire Line
+	3500 2800 3500 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 630E93E3
+P 3500 2300
+F 0 "#PWR?" H 3500 2150 50  0001 C CNN
+F 1 "+5V" H 3515 2473 50  0000 C CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2300 3500 2400
+$Comp
+L Jumper:SolderJumper_2_Open JP102
+U 1 1 630EC407
+P 5000 3050
+F 0 "JP102" V 4954 3118 50  0000 L CNN
+F 1 "RC" V 5045 3118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5000 3050 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+F 4 "n" H 5000 3050 50  0001 C CNN "assemble"
+	1    5000 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3500 5000 3200
+$Comp
+L Device:R R102
+U 1 1 630EC40E
+P 5000 2550
+F 0 "R102" H 5070 2596 50  0000 L CNN
+F 1 "150" H 5070 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 2550 50  0001 C CNN
+F 3 "~" H 5000 2550 50  0001 C CNN
+F 4 "±1% 1/16W ±100ppm/℃ 150Ω 0402 Chip Resistor - Surface Mount ROHS" H 5000 2550 50  0001 C CNN "Description"
+F 5 "C25082" H 5000 2550 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 5000 2550 50  0001 C CNN "Distributor"
+F 7 "C25082" H 5000 2550 50  0001 C CNN "LCSC"
+F 8 "0402WGF1500TCE" H 5000 2550 50  0001 C CNN "ManuPart#"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 5000 2550 50  0001 C CNN "Manufacture"
+F 10 "y" H 5000 2550 50  0001 C CNN "assemble"
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C102
+U 1 1 630EC414
+P 5350 2800
+F 0 "C102" V 5098 2800 50  0000 C CNN
+F 1 "100n" V 5189 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 2650 50  0001 C CNN
+F 3 "~" H 5350 2800 50  0001 C CNN
+F 4 "X7R 100nF ±10% 16V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 5350 2800 50  0001 C CNN "Description"
+F 5 "C1525" H 5350 2800 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 5350 2800 50  0001 C CNN "Distributor"
+F 7 "C1525" H 5350 2800 50  0001 C CNN "LCSC"
+F 8 "CL05B104KO5NNNC" H 5350 2800 50  0001 C CNN "ManuPart#"
+F 9 "Samsung Electro-Mechanics" H 5350 2800 50  0001 C CNN "Manufacture"
+F 10 "y" H 5350 2800 50  0001 C CNN "assemble"
+	1    5350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630EC41A
+P 5600 2900
+F 0 "#PWR?" H 5600 2650 50  0001 C CNN
+F 1 "GND" H 5605 2727 50  0000 C CNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2800 5600 2800
+Wire Wire Line
+	5600 2800 5600 2900
+Wire Wire Line
+	5000 2700 5000 2800
+Wire Wire Line
+	5200 2800 5000 2800
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 2800 5000 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 630EC426
+P 5000 2300
+F 0 "#PWR?" H 5000 2150 50  0001 C CNN
+F 1 "+5V" H 5015 2473 50  0000 C CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2300 5000 2400
+$Comp
+L Jumper:SolderJumper_2_Open JP103
+U 1 1 630EECDD
+P 6500 3050
+F 0 "JP103" V 6454 3118 50  0000 L CNN
+F 1 "RC" V 6545 3118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 3050 50  0001 C CNN
+F 3 "~" H 6500 3050 50  0001 C CNN
+F 4 "n" H 6500 3050 50  0001 C CNN "assemble"
+	1    6500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 3500 6500 3200
+$Comp
+L Device:R R103
+U 1 1 630EECE4
+P 6500 2550
+F 0 "R103" H 6570 2596 50  0000 L CNN
+F 1 "150" H 6570 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 2550 50  0001 C CNN
+F 3 "~" H 6500 2550 50  0001 C CNN
+F 4 "±1% 1/16W ±100ppm/℃ 150Ω 0402 Chip Resistor - Surface Mount ROHS" H 6500 2550 50  0001 C CNN "Description"
+F 5 "C25082" H 6500 2550 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 6500 2550 50  0001 C CNN "Distributor"
+F 7 "C25082" H 6500 2550 50  0001 C CNN "LCSC"
+F 8 "0402WGF1500TCE" H 6500 2550 50  0001 C CNN "ManuPart#"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 6500 2550 50  0001 C CNN "Manufacture"
+F 10 "y" H 6500 2550 50  0001 C CNN "assemble"
+	1    6500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C103
+U 1 1 630EECEA
+P 6850 2800
+F 0 "C103" V 6598 2800 50  0000 C CNN
+F 1 "100n" V 6689 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6888 2650 50  0001 C CNN
+F 3 "~" H 6850 2800 50  0001 C CNN
+F 4 "X7R 100nF ±10% 16V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 6850 2800 50  0001 C CNN "Description"
+F 5 "C1525" H 6850 2800 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 6850 2800 50  0001 C CNN "Distributor"
+F 7 "C1525" H 6850 2800 50  0001 C CNN "LCSC"
+F 8 "CL05B104KO5NNNC" H 6850 2800 50  0001 C CNN "ManuPart#"
+F 9 "Samsung Electro-Mechanics" H 6850 2800 50  0001 C CNN "Manufacture"
+F 10 "y" H 6850 2800 50  0001 C CNN "assemble"
+	1    6850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630EECF0
+P 7100 2900
+F 0 "#PWR?" H 7100 2650 50  0001 C CNN
+F 1 "GND" H 7105 2727 50  0000 C CNN
+F 2 "" H 7100 2900 50  0001 C CNN
+F 3 "" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2800 7100 2800
+Wire Wire Line
+	7100 2800 7100 2900
+Wire Wire Line
+	6500 2700 6500 2800
+Wire Wire Line
+	6700 2800 6500 2800
+Connection ~ 6500 2800
+Wire Wire Line
+	6500 2800 6500 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 630EECFC
+P 6500 2300
+F 0 "#PWR?" H 6500 2150 50  0001 C CNN
+F 1 "+5V" H 6515 2473 50  0000 C CNN
+F 2 "" H 6500 2300 50  0001 C CNN
+F 3 "" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2300 6500 2400
+$Comp
+L Jumper:SolderJumper_2_Open JP104
+U 1 1 630F1676
+P 8000 3050
+F 0 "JP104" V 7954 3118 50  0000 L CNN
+F 1 "RC" V 8045 3118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8000 3050 50  0001 C CNN
+F 3 "~" H 8000 3050 50  0001 C CNN
+F 4 "n" H 8000 3050 50  0001 C CNN "assemble"
+	1    8000 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 3500 8000 3200
+$Comp
+L Device:R R104
+U 1 1 630F167D
+P 8000 2550
+F 0 "R104" H 8070 2596 50  0000 L CNN
+F 1 "150" H 8070 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 2550 50  0001 C CNN
+F 3 "~" H 8000 2550 50  0001 C CNN
+F 4 "±1% 1/16W ±100ppm/℃ 150Ω 0402 Chip Resistor - Surface Mount ROHS" H 8000 2550 50  0001 C CNN "Description"
+F 5 "C25082" H 8000 2550 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 8000 2550 50  0001 C CNN "Distributor"
+F 7 "C25082" H 8000 2550 50  0001 C CNN "LCSC"
+F 8 "0402WGF1500TCE" H 8000 2550 50  0001 C CNN "ManuPart#"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 8000 2550 50  0001 C CNN "Manufacture"
+F 10 "y" H 8000 2550 50  0001 C CNN "assemble"
+	1    8000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C104
+U 1 1 630F1683
+P 8350 2800
+F 0 "C104" V 8098 2800 50  0000 C CNN
+F 1 "100n" V 8189 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8388 2650 50  0001 C CNN
+F 3 "~" H 8350 2800 50  0001 C CNN
+F 4 "X7R 100nF ±10% 16V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 8350 2800 50  0001 C CNN "Description"
+F 5 "C1525" H 8350 2800 50  0001 C CNN "DistribPart#"
+F 6 "JLCPCB" H 8350 2800 50  0001 C CNN "Distributor"
+F 7 "C1525" H 8350 2800 50  0001 C CNN "LCSC"
+F 8 "CL05B104KO5NNNC" H 8350 2800 50  0001 C CNN "ManuPart#"
+F 9 "Samsung Electro-Mechanics" H 8350 2800 50  0001 C CNN "Manufacture"
+F 10 "y" H 8350 2800 50  0001 C CNN "assemble"
+	1    8350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630F1689
+P 8600 2900
+F 0 "#PWR?" H 8600 2650 50  0001 C CNN
+F 1 "GND" H 8605 2727 50  0000 C CNN
+F 2 "" H 8600 2900 50  0001 C CNN
+F 3 "" H 8600 2900 50  0001 C CNN
+	1    8600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 2900
+Wire Wire Line
+	8000 2700 8000 2800
+Wire Wire Line
+	8200 2800 8000 2800
+Connection ~ 8000 2800
+Wire Wire Line
+	8000 2800 8000 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 630F1695
+P 8000 2300
+F 0 "#PWR?" H 8000 2150 50  0001 C CNN
+F 1 "+5V" H 8015 2473 50  0000 C CNN
+F 2 "" H 8000 2300 50  0001 C CNN
+F 3 "" H 8000 2300 50  0001 C CNN
+	1    8000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2300 8000 2400
+Connection ~ 8000 3500
+Connection ~ 6500 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	4200 4600 3100 4600
+Wire Wire Line
+	3100 4600 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3200 4000
+$Comp
+L Jumper:SolderJumper_2_Open JP109
+U 1 1 630FF18B
+P 4200 4350
+F 0 "JP109" V 4154 4418 50  0000 L CNN
+F 1 "bypass" V 4245 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4200 4350 50  0001 C CNN
+F 3 "~" H 4200 4350 50  0001 C CNN
+F 4 "n" H 4200 4350 50  0001 C CNN "assemble"
+	1    4200 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP110
+U 1 1 630FFDA8
+P 5700 4350
+F 0 "JP110" V 5654 4418 50  0000 L CNN
+F 1 "bypass" V 5745 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5700 4350 50  0001 C CNN
+F 3 "~" H 5700 4350 50  0001 C CNN
+F 4 "n" H 5700 4350 50  0001 C CNN "assemble"
+	1    5700 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP111
+U 1 1 63100316
+P 7200 4350
+F 0 "JP111" V 7154 4418 50  0000 L CNN
+F 1 "bypass" V 7245 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7200 4350 50  0001 C CNN
+F 3 "~" H 7200 4350 50  0001 C CNN
+F 4 "n" H 7200 4350 50  0001 C CNN "assemble"
+	1    7200 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4600 4200 4500
+Wire Wire Line
+	4200 4200 4200 4000
+Connection ~ 4200 4000
+Wire Wire Line
+	4600 3900 4600 4600
+Wire Wire Line
+	4600 4600 5700 4600
+Wire Wire Line
+	5700 4600 5700 4500
+Connection ~ 4600 3900
+Wire Wire Line
+	4600 3900 4700 3900
+Wire Wire Line
+	5700 4000 5700 4200
+Connection ~ 5700 4000
+Wire Wire Line
+	6100 3900 6100 4600
+Wire Wire Line
+	6100 4600 7200 4600
+Wire Wire Line
+	7200 4600 7200 4500
+Connection ~ 6100 3900
+Wire Wire Line
+	6100 3900 6200 3900
+Wire Wire Line
+	7200 4000 7200 4200
+Connection ~ 7200 4000
+$Comp
+L Jumper:SolderJumper_2_Open JP112
+U 1 1 6310F333
+P 8900 4350
+F 0 "JP112" V 8854 4418 50  0000 L CNN
+F 1 "bypass" V 8945 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8900 4350 50  0001 C CNN
+F 3 "~" H 8900 4350 50  0001 C CNN
+F 4 "n" H 8900 4350 50  0001 C CNN "assemble"
+	1    8900 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3900 7600 4600
+Wire Wire Line
+	7600 4600 8900 4600
+Wire Wire Line
+	8900 4600 8900 4500
+Connection ~ 7600 3900
+Wire Wire Line
+	7600 3900 7700 3900
+Wire Wire Line
+	8900 4200 8900 3500
+Connection ~ 8900 3500
+Wire Wire Line
+	8900 3500 8800 3500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 63149115
+P 3700 3400
+F 0 "#FLG?" H 3700 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 3573 50  0000 C CNN
+F 2 "" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3400 3700 3500
+Connection ~ 3700 3500
+Wire Wire Line
+	3700 3500 3500 3500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6314CC65
+P 5200 3400
+F 0 "#FLG?" H 5200 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 3573 50  0000 C CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "~" H 5200 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3400 5200 3500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6314F516
+P 6700 3400
+F 0 "#FLG?" H 6700 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6700 3573 50  0000 C CNN
+F 2 "" H 6700 3400 50  0001 C CNN
+F 3 "~" H 6700 3400 50  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3400 6700 3500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 63152139
+P 8200 3400
+F 0 "#FLG?" H 8200 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 3573 50  0000 C CNN
+F 2 "" H 8200 3400 50  0001 C CNN
+F 3 "~" H 8200 3400 50  0001 C CNN
+	1    8200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3400 8200 3500
+Connection ~ 8200 3500
+Wire Wire Line
+	8200 3500 8000 3500
+Connection ~ 6700 3500
+Wire Wire Line
+	6700 3500 6500 3500
+Connection ~ 5200 3500
+Wire Wire Line
+	5200 3500 5000 3500
+$Comp
+L Mechanical:MountingHole_Pad H101
+U 1 1 631624BF
+P 1500 1400
+F 0 "H101" H 1600 1403 50  0000 L CNN
+F 1 "~" H 1600 1358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1500 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+F 4 "n" H 1500 1400 50  0001 C CNN "assemble"
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 631630A4
+P 1500 1600
+F 0 "#PWR?" H 1500 1350 50  0001 C CNN
+F 1 "GND" H 1505 1427 50  0000 C CNN
+F 2 "" H 1500 1600 50  0001 C CNN
+F 3 "" H 1500 1600 50  0001 C CNN
+	1    1500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1500 1500 1600
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 631665F7
+P 2000 1400
+F 0 "H102" H 2100 1403 50  0000 L CNN
+F 1 "~" H 2100 1358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2000 1400 50  0001 C CNN
+F 3 "~" H 2000 1400 50  0001 C CNN
+F 4 "n" H 2000 1400 50  0001 C CNN "assemble"
+	1    2000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 631665FD
+P 2000 1600
+F 0 "#PWR?" H 2000 1350 50  0001 C CNN
+F 1 "GND" H 2005 1427 50  0000 C CNN
+F 2 "" H 2000 1600 50  0001 C CNN
+F 3 "" H 2000 1600 50  0001 C CNN
+	1    2000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1500 2000 1600
+$Comp
+L Mechanical:MountingHole_Pad H103
+U 1 1 6316A240
+P 1500 2400
+F 0 "H103" H 1600 2403 50  0000 L CNN
+F 1 "~" H 1600 2358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1500 2400 50  0001 C CNN
+F 3 "~" H 1500 2400 50  0001 C CNN
+F 4 "n" H 1500 2400 50  0001 C CNN "assemble"
+	1    1500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6316A246
+P 1500 2600
+F 0 "#PWR?" H 1500 2350 50  0001 C CNN
+F 1 "GND" H 1505 2427 50  0000 C CNN
+F 2 "" H 1500 2600 50  0001 C CNN
+F 3 "" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2500 1500 2600
+$Comp
+L Mechanical:MountingHole_Pad H104
+U 1 1 6316A24D
+P 2000 2400
+F 0 "H104" H 2100 2403 50  0000 L CNN
+F 1 "~" H 2100 2358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2000 2400 50  0001 C CNN
+F 3 "~" H 2000 2400 50  0001 C CNN
+F 4 "n" H 2000 2400 50  0001 C CNN "assemble"
+	1    2000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6316A253
+P 2000 2600
+F 0 "#PWR?" H 2000 2350 50  0001 C CNN
+F 1 "GND" H 2005 2427 50  0000 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2500 2000 2600
+$EndSCHEMATC
