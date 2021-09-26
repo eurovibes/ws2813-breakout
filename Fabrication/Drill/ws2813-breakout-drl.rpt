@@ -1,0 +1,24 @@
+Drill report for /github/workspace/ws2813-breakout.kicad_pcb
+Created on Sun Sep 26 17:43:23 2021
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ws2813-breakout-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (15 holes)
+    T2  1.00mm  0.039"  (6 holes)
+    T3  3.20mm  0.126"  (4 holes)
+
+    Total plated holes count 25
+
+
+Drill file 'ws2813-breakout-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

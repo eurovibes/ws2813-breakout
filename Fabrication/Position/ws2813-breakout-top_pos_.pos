@@ -1,0 +1,18 @@
+### Module positions - created on Sun 26 Sep 2021 17:43:23  ###
+### Printed by KiBot
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref    Val      Package                             PosX       PosY        Rot       Side
+C101     100n     C_0402_1005Metric                   109.0000   -110.5000   0.0000    top 
+C102     100n     C_0402_1005Metric                   129.0000   -110.5000   0.0000    top 
+C103     100n     C_0402_1005Metric                   109.0000   -130.5000   0.0000    top 
+C104     100n     C_0402_1005Metric                   129.0000   -130.5000   0.0000    top 
+D101     WS2813   LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm   115.0000   -115.0000   0.0000    top 
+D102     WS2813   LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm   135.0000   -115.0000   0.0000    top 
+D103     WS2813   LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm   115.0000   -135.0000   0.0000    top 
+D104     WS2813   LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm   135.0000   -135.0000   0.0000    top 
+R101     150      R_0402_1005Metric                   110.7500   -113.0000   90.0000   top 
+R102     150      R_0402_1005Metric                   130.7500   -113.0000   90.0000   top 
+R103     150      R_0402_1005Metric                   110.7500   -133.0000   90.0000   top 
+R104     150      R_0402_1005Metric                   130.7500   -133.0000   90.0000   top 
+## End

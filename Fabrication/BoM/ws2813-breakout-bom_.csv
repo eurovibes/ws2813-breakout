@@ -1,0 +1,24 @@
+Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,Quantity Per PCB
+1,C101 C102 C103 C104,C,100 nF,,,,C_0402_1005Metric,,4
+2,D101 D102 D103 D104,WS2813,WS2813,,,,LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm,,4
+3,H101 H102 H103 H104,MountingHole_Pad,~,,,,MountingHole_3.2mm_M3_ISO14580_Pad,,4
+4,J101,Conn_01x06,Breakout,,,,PinHeader_1x06_P2.54mm_Vertical,,1
+5,JP101 JP102 JP103 JP104 JP105 JP106 JP107 JP108 JP109 JP110 JP111 JP112,SolderJumper_2_Open,RC,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,12
+6,R101 R102 R103 R104,R,150 Ω,,,,R_0402_1005Metric,,4
+
+
+
+
+
+Project info:
+Schematic:,ws2813-breakout
+Variant:,default
+Revision:,
+Date:,2021-09-26_17-42-51
+KiCad Version:,5.1.9+dfsg1-1~bpo10+1
+Statistics:
+Component Groups:,6
+Component Count:,29
+Fitted Components:,29
+Number of PCBs:,1
+Total Components:,29

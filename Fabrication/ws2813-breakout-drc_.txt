@@ -1,0 +1,8 @@
+** Drc report for /github/workspace/ws2813-breakout.kicad_pcb **
+** Created on 2021-09-26 17:43:00 **
+
+** Found 0 DRC errors **
+
+** Found 0 unconnected pads **
+
+** End of Report **
